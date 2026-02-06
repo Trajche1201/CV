@@ -115,6 +115,6 @@ const note = document.getElementById("formNote");
 
 form?.addEventListener("submit", (e) => {
   e.preventDefault();
-  note.textContent = "✅ Thanks! Message prepared (front-end demo). Connect to backend/email service to send.";
   form.reset();
 });
+

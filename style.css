@@ -398,20 +398,20 @@ img{ max-width:100%; display:block; }
   font-weight: 600;
 }
 
-/* Journey */
-.journey-grid{
+/* Career */
+.career-grid{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
   align-items: start;
 }
-.journey-title{
+.career-title{
   display:flex;
   align-items:center;
   gap: 10px;
   margin-bottom: 12px;
 }
-.journey-badge{
+.career-badge{
   width: 46px; height: 46px;
   border-radius: 16px;
   display:grid; place-items:center;
@@ -605,3 +605,4 @@ textarea{ resize: vertical; }
   .avatar-wrap{ width: 170px; height:170px; }
   .avatar{ width:170px; height:170px; }
 }
+
